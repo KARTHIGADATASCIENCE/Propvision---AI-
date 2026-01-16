@@ -1,0 +1,8 @@
+
+{
+  "name": "Professional Structural Diagnostics",
+  "description": "High-end structural and real estate defect analysis platform with multi-modal AI and multi-language support.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,116 @@
+﻿..\venv\Scripts\pytho
+n : 2026-01-13 
+12:45:45.909084: I te
+nsorflow/core/util/po
+rt.cc:153] oneDNN 
+custom operations 
+are on. You may see 
+slightly different 
+numerical results 
+due to 
+floating-point 
+round-off errors 
+from different 
+computation orders. 
+To turn them off, 
+set the environment 
+variable `TF_ENABLE_O
+NEDNN_OPTS=0`.
+At line:1 char:1
++ ..\venv\Scripts\pyt
+hon 
+verify_model_v3.py > 
+verify_output_v3.txt 
+2>&1 ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (2026-01   
+ -13 12:4...ONEDN    
+N_OPTS=0`.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+2026-01-13 
+12:45:48.453138: I te
+nsorflow/core/util/po
+rt.cc:153] oneDNN 
+custom operations 
+are on. You may see 
+slightly different 
+numerical results 
+due to 
+floating-point 
+round-off errors 
+from different 
+computation orders. 
+To turn them off, 
+set the environment 
+variable `TF_ENABLE_O
+NEDNN_OPTS=0`.
+D:\Property diagnosis
+\venv\Lib\site-packag
+es\keras\src\export\t
+f2onnx_lib.py:8: 
+FutureWarning: In 
+the future 
+`np.object` will be 
+defined as the 
+corresponding NumPy 
+scalar.
+  if not hasattr(np, 
+"object"):
+WARNING:tensorflow:Fr
+om D:\Property diagno
+sis\venv\Lib\site-pac
+kages\tf_keras\src\lo
+sses.py:2976: The 
+name tf.losses.sparse
+_softmax_cross_entrop
+y is deprecated. 
+Please use tf.compat.
+v1.losses.sparse_soft
+max_cross_entropy 
+instead.
+
+Traceback (most 
+recent call last):
+  File "D:\Property 
+diagnosis\backend 
+original - Copy\verif
+y_model_v3.py", line 
+11, in <module>
+    
+print("\u2139\ufe0f 
+Using tf_keras for 
+legacy model 
+support.")
+  File "C:\Program Fi
+les\WindowsApps\Pytho
+nSoftwareFoundation.P
+ython.3.11_3.11.2544.
+0_x64__qbz5n2kfra8p0\
+Lib\encodings\cp1252.
+py", line 19, in 
+encode
+    return codecs.cha
+rmap_encode(input,sel
+f.errors,encoding_tab
+le)[0]
+           ^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^^^
+UnicodeEncodeError: 
+'charmap' codec 
+can't encode 
+characters in 
+position 0-1: 
+character maps to 
+<undefined>
